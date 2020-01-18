@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    height: 100%;
+    font-family: Lato;
+}
+
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 0px 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav img {
+    width: 180px;
+    height: 60px;
+    margin-right: 30px;
+}
+
+.navbar .nav {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav li {
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+.navbar .nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #888;
+}
+
+.navbar .nav li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+}
+
+.navbar .status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .status .price {
+    margin-right: 10px;
+    color: #bbb;
+}
+
+.navbar .status .credits-button {
+    padding: 10px 20px;
+    background-color: #aaa;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar .status .credits-button:hover {
+    background-color: #888;
+}
+
+/* content styles */
+.content {
+    padding: 60px;
+    height: auto;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content .billing-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.content .billing-info .title {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.content .billing-info .info {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.content .billing-info .edit-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #444;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content .payment-method {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+}
+
+.content .payment-method .payment-method-title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #222;
+    background-color: #aaa;
+    padding: 10px 0px;
+    padding-bottom: 15px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.content .payment-method .payment-method-content {
+    padding: 10px 20px;
+}
