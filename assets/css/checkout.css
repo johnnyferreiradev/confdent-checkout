@@ -11,6 +11,7 @@
 html, body {
     height: 100%;
     font-family: Lato;
+    background-color: #f7f7f7;
 }
 
 /* Navbar styles */
@@ -27,7 +28,7 @@ html, body {
 
 .navbar .nav img {
     width: 180px;
-    height: 60px;
+    height: 40px;
     margin-right: 30px;
 }
 
@@ -236,7 +237,7 @@ html, body {
     width: 100%;
     box-sizing: border-box;
     border: 1px solid #aaa;
-    background-color: #fff;
+    background-color: #f7f7f7;
     outline: none;
     border-radius: 4px;
     font-size: 16px;
@@ -313,6 +314,10 @@ html, body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .navbar .nav img {
+        margin-bottom: 20px;
     }
 
     .navbar .nav li {
