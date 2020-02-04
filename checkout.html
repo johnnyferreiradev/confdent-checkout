@@ -36,65 +36,70 @@
         </div>
     </header>
     <div class="content">
-        <div class="billing-info">
-            <h1 class="title">Informações de cobrança</h1>
-            <p class="info">Livia Contágio</p>
-            <p class="info">Avenida Nove de Julho, nº 12</p>
-            <p class="info">CEP 01406-000 - São Paulo - SP</p>
-            <p class="info">(11) 2365-4856</p>
-            <a href="#" class="edit-button">Editar dados</a>
-        </div>
-        <div class="payment-method">
-            <div class="payment-method-title">
-                Forma de pagamento
+        <div class="container">
+            <div class="billing-info">
+                <h1 class="title">Informações de cobrança</h1>
+                <p class="info">Livia Contágio</p>
+                <p class="info">Avenida Nove de Julho, nº 12</p>
+                <p class="info">CEP 01406-000 - São Paulo - SP</p>
+                <p class="info">(11) 2365-4856</p>
+                <a href="#" class="edit-button">Editar dados</a>
             </div>
-            <div class="payment-method-content">
-                <form>
-                    <div class="payment-form-group">
-                        <div class="check">
-                            <input type="radio" name="" id="card">
-                            <label for="">Cartão de crédito</label>
+            <div class="plans">
+                Planos
+            </div>
+            <div class="payment-method">
+                <div class="payment-method-title">
+                    Forma de pagamento
+                </div>
+                <div class="payment-method-content">
+                    <form>
+                        <div class="payment-form-group">
+                            <div class="check">
+                                <input type="radio" name="" id="card">
+                                <label for="">Cartão de crédito</label>
+                            </div>
+                            <img src="./assets/images/cards.png" alt="Cartões" id="img-flags">
                         </div>
-                        <img src="./assets/images/cards.png" alt="Cartões" id="img-flags">
-                    </div>
-                    <div class="payment-form-group">
-                        <label for="">Número do Cartão</label>
-                        <input type="text" class="type-text" id="card-number">
-                    </div>
-                    <div class="payment-form-group">
-                        <label for="">Nome do titular</label>
-                        <input type="text" class="type-text" id="holder">
-                    </div>
-                    <div class="payment-form-group">
-                        <label for="">Validade</label>
-                        <input type="text" class="type-text" id="expiration-date">
+                        <div class="payment-form-group">
+                            <label for="">Número do Cartão</label>
+                            <input type="text" class="type-text" id="card-number">
+                        </div>
+                        <div class="payment-form-group">
+                            <label for="">Nome do titular</label>
+                            <input type="text" class="type-text" id="holder">
+                        </div>
+                        <div class="payment-form-group">
+                            <label for="">Validade</label>
+                            <input type="text" class="type-text" id="expiration-date">
 
-                        <label for="" class="cvv">CVV</label>
-                        <input type="text" class="type-text" id="cvv">
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="purchase-summary">
-            <div class="summary-card">
-                <div class="summary-title">Resumo da compra</div>
-                <div class="summary-content">
-                    <div class="payment-form-group">
-                        <label for="">Item selecionado</label>
-                        <input type="text">
-                    </div>
-                    <div class="payment-form-group">
-                        <label for="">Cupom de desconto</label>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="total">
-                    TOTAL: R$ 999,00
+                            <label for="" class="cvv">CVV</label>
+                            <input type="text" class="type-text" id="cvv">
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="pay">
-                <a href="#" class="pay-button">Pagar</a>
-                <a href="#">Quero mudar minha escolha</a>
+            <div class="purchase-summary">
+                <div class="summary-card">
+                    <div class="summary-title">Resumo da compra</div>
+                    <div class="summary-content">
+                        <div class="payment-form-group">
+                            <label for="">Item selecionado</label>
+                            <input type="text">
+                        </div>
+                        <div class="payment-form-group">
+                            <label for="">Cupom de desconto</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="total">
+                        TOTAL: R$ 999,00
+                    </div>
+                </div>
+                <div class="pay">
+                    <a href="#" class="pay-button">Pagar</a>
+                    <a href="#">Quero mudar minha escolha</a>
+                </div>
             </div>
         </div>
     </div>
